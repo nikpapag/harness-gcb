@@ -12,6 +12,12 @@
             "us-west2-docker.pkg.dev/sales-209522/quickstart-docker-repo-nikp/quickstart-image:tag1",
             "."
         ]
-    }
+    },
+    {
+        "name: "gcr.io/cloud-builders/gcloud",
+        "entrypoint": "/bin/bash",
+        "env": "export $OUTPUT=us-west2-docker.pkg.dev/sales-209522/quickstart-docker-repo-nikp/quickstart-image:tag1"
+        
+            
     ]
 }
