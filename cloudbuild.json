@@ -1,6 +1,10 @@
 {
     "steps": [
     {
+        "name": "gcr.io/cloud-builders/git",
+        "args": ["clone", "https://github.com/nikpapag/harness-gcb.git", "."]
+    },
+    {
         "name": "gcr.io/cloud-builders/docker",
         "args": [
             "build",
