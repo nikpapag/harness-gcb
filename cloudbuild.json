@@ -6,7 +6,8 @@
             "build",
             "-t",
             "us-west2-docker.pkg.dev/sales-209522/quickstart-docker-repo-nikp/quickstart-image:tag1",
-            "."
+            "-f",
+            "/root/workspace/Dockerfile"
         ]
     }
     ]
